@@ -798,3 +798,55 @@ footer p{
   border: 1px solid rgba(49, 92, 66, 0.16);
   line-height: 1.9;
 }
+.goal-list {
+  padding-left: 24px;
+  line-height: 1.9;
+}
+
+.goal-list li {
+  margin-bottom: 14px;
+}
+
+.learning-map {
+  display: grid;
+  gap: 14px;
+}
+
+.map-item {
+  padding: 16px;
+  border-radius: 14px;
+  background: #f6f8f3;
+  border: 1px solid #dfe8d8;
+}
+
+.map-item p {
+  margin: 8px 0 0;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.feature-item {
+  padding: 16px;
+  border-radius: 14px;
+  background: #f6f8f3;
+  border: 1px solid #dfe8d8;
+}
+
+.feature-item h4 {
+  margin: 0 0 8px;
+}
+
+.feature-item p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .feature-list {
+    grid-template-columns: 1fr;
+  }
+}
